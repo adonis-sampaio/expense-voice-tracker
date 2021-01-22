@@ -1,3 +1,4 @@
+//First we've gotta do import react, useReducer and createContext
 import React, { useReducer, createContext } from 'react';
 
 import contextReducer from './contextReducer';
