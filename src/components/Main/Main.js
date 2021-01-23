@@ -6,6 +6,8 @@ import useStyles from './styles';
 import Form from './Form/Form';
 import List from './List/List';
 
+import InfoCard from '../InfoCard/InfoCard.js';
+
 
 
 const Main = () => {
@@ -18,9 +20,9 @@ const Main = () => {
             <CardContent>
                 <Typography align="center" variant="h5">Total Balance $ {balance}</Typography>
                 <Typography variant="subtitle1" style={{ lineHeight: '1.5em', marginTop: '20px'}}>
-                    Try Saying: Add income $100 in category salary for Monday
+                    <InfoCard />
                 </Typography>
-                <Divider />
+                <Divider className={classes.divider} />
                 <Form />
             </CardContent>
             <CardContent className={classes.cardContent} >
