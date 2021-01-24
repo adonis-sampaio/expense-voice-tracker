@@ -31,7 +31,7 @@ const App = () => {
                 <Grid ref={main} item xs={12} sm={3} className={classes.main}>
                     <Main />
                 </Grid>
-                <Grid item xs={12} sm={4} classeName={classes.desktop}>
+                <Grid item xs={12} sm={4} className={classes.desktop}>
                     <Details title="Income"/>
                 </Grid>
                 <Grid item xs={12} sm={4} >
